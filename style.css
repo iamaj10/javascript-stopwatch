@@ -1,0 +1,46 @@
+body {
+  background-color: rgba(249, 248, 251, 0.327) !important;
+}
+
+/* stopwatch */
+.container {
+  width: 50% !important;
+  margin-top: 20vh;
+  height: auto;
+  font-size: 10vw;
+  font-family: "Roboto", sans-serif;
+  border-radius: 40px;
+  box-shadow: 1px 1px 12px 1px lightgrey;
+  padding-bottom: 30px;
+}
+
+/* buttons  */
+.buttons {
+  font-family: "Roboto", sans-serif;
+}
+
+.buttons button {
+  box-shadow: 1px 1px 12px 1px lightgrey;
+}
+
+/* media-query */
+@media screen and (max-width: 830px) {
+  .container {
+    width: 80% !important;
+    height: auto;
+  }
+  .count-down {
+    position: relative;
+    top: 3vh;
+  }
+
+  .buttons {
+    position: relative;
+    top: 2vh;
+    flex-direction: column;
+  }
+
+  .btn {
+    margin-bottom: 4vh;
+  }
+}
